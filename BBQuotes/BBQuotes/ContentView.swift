@@ -16,7 +16,7 @@ struct ContentView: View {
                     Label("Breaking Bad", systemImage: "tortoise")
                 }
             
-            Text("Better Call Saul  View")
+            Text("Better Call Saul View")
                 .toolbarBackground(.visible, for: .tabBar)
                 .tabItem {
                     Label("Better Call Saul", systemImage: "briefcase")
