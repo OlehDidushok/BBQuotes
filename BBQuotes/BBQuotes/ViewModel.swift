@@ -23,7 +23,7 @@ class ViewModel {
     var quote: Quote
     var character: Character
     
-    init() async {
+    init() {
         let decoder = JSONDecoder()
         decoder.keyDecodingStrategy = .convertFromSnakeCase
         
