@@ -58,9 +58,9 @@ struct QuoteView: View {
                             .font(.title)
                             .foregroundStyle(.white)
                             .padding()
-                            .background(Color("BreakingBadGreen"))
+                            .background(.breakingBadGreen)
                             .clipShape(.rect(cornerRadius: 7))
-                            .shadow(color: Color("BreakingBadYellow"), radius: 2)
+                            .shadow(color: .breakingBadYellow, radius: 2)
                     }
                     Spacer(minLength: 95)
                 }
